@@ -15,7 +15,10 @@
     </span>
   </span>
   <span>
-    <a href="#/posts/{{$index}}">Comments</a>
+    <a href="#/posts/{{post.id}}">Comments</a>
+  </span>
+  <span>
+    posted by <a href="#/users/{{post.user.username}}">{{post.user.username}}</a>
   </span>
 </div>
 
